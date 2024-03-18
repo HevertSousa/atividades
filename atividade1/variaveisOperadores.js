@@ -11,13 +11,12 @@ var a, b, c
 
     a = 27;
     b = 9;
-
-
+    
     c = a + b;
-console.log("A soma de: ",a," + ",b," = ", c)
+console.log(`A soma de ${a}+${b} = ${c}`);
     c = a - b;
-console.log("A subtração de: ",a," - ",b," = ", c)
+console.log(`A subtração de ${a}-${b} = ${c}`);
     c = a * b;
-console.log("A multiplicação de: ",a," * ",b," = ", c)
+console.log(`A multiplicação de ${a}*${b} = ${c}`);
     c = a / b;
-console.log("A divisão de: ",a," / ",b," = ", c)
+console.log(`A divisão de ${a}/${b} = ${c}`);
