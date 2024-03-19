@@ -22,7 +22,7 @@ function verificarNumeroPrimo(n){
         return false;
     }
 
-    for (let i = 2; i<= Math.sqrt(n); i++){
+    for (var i = 2; i<= Math.sqrt(n); i++){
         if (n % i === 0){
             return false;
         }
@@ -33,7 +33,7 @@ function verificarNumeroPrimo(n){
 function verificaPrimosNoVetor(vetor){
     const resultados = [];
 
-    for (let i = 0; i < vetor.length; i++){
+    for (var i = 0; i < vetor.length; i++){
         resultados.push(verificarNumeroPrimo(vetor[i]));
     }
 
@@ -45,6 +45,6 @@ const resultados = verificaPrimosNoVetor(n);
 
 console.log('Resultados: ');
 
-for(let i = 0; i < n.length; i++){
+for(var i = 0; i < n.length; i++){
     console.log(`${n[i]} é primo? ${resultados[i]}`);
 }

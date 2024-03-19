@@ -7,7 +7,7 @@
 // Desenvolvimento Web
 
 
-var a, b, c 
+let a, b, c 
 
     a = 27;
     b = 9;
