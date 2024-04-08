@@ -1,0 +1,13 @@
+No seu repositório de atividades no github, crie uma pasta atividade 4 e implemente um aplicação 
+web com as rotas:
+
+/somar/:a/:b
+/subtrair/:a/:b
+/multiplicar/:a/:b
+/dividir/:a/:b
+
+Que deve retornar o valor equivalente da operação considreando os valores a e b de entrada pela URL.
+
+A aplicação deve conter um arquivo index.js na raiz e um módulo calculadora.js na pasta util.
+
+Como solução, poste o link da pasta atiidade 4 no seu guthub. 
