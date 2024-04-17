@@ -1,0 +1,9 @@
+No seu repositório de atividades, crie uma pasta atividade 5; 
+
+Implemente um aplicativo web com as seguintes rotas: 
+'adicionar/:id/:nome/:qtd - Adiciona um novo produto ao estoque
+'listar' - Lista todos os produtos no estoque
+'remover/:id' - Remove um produo do estoque 
+'editar/:id/:qtd' - Altera a quantidade de um produto no estoque
+
+Como solução, envie o link da pasta atividade 5 
