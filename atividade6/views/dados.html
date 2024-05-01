@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados Recebidos</title>
+  <!-- Inclua o Bootstrap 5 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dados Recebidos</h1>
+    <div class="mb-3">
+      <label class="form-label">Nome:</label>
+      <p>{{ dados.nome }}</p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Endereço:</label>
+      <p>{{ dados.endereco }}</p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Telefone:</label>
+      <p>{{ dados.telefone }}</p>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Data de Agendamento:</label>
+      <p>{{ dados.dataAgendamento }}</p>
+    </div>
+  </div>
+  <!-- Scripts do Bootstrap 5 -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
